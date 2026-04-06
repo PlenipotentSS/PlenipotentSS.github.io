@@ -1,40 +1,35 @@
-<html>
+<!doctype html>
+<html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Begin Jekyll SEO tag v2.8.0 -->
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>𝕊</text></svg>" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Steven Stevenson — engineer, investor, and problem solver. Building and backing ventures at the intersection of technology and capital." />
+    <meta property="og:title" content="Steven Stevenson" />
+    <meta property="og:description" content="Engineer, investor, and problem solver. Building and backing ventures at the intersection of technology and capital." />
+    <meta property="og:url" content="https://www.stevenstevenson.com" />
     <title>Steven Stevenson</title>
-    <meta name="generator" content="Jekyll v3.9.5">
-    <meta property="og:title" content="Steven Stevenson">
-    <meta property="og:locale" content="en_US">
-    <link rel="canonical" href="https://www.stevenstevenson.com/">
-    <meta property="og:url" content="https://www.stevenstevenson.com/">
-    <meta property="og:site_name" content="Steven Stevenson">
-    <meta property="og:type" content="website">
-    <meta name="twitter:card" content="summary">
-    <meta property="twitter:title" content="Steven Stevenson">
-    <script type="application/ld+json">
-    {"@context":"https://schema.org","@type":"WebSite","headline":"Steven Stevenson","name":"Steven Stevenson","url":"https://www.stevenstevenson.com/"}</script>
-    <!-- End Jekyll SEO tag -->
-    <link rel="stylesheet" href="/assets/css/style.css?v=5274ff3f35bc237c36d9616f9ef94da7a6db2a0e">
-    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
-    <!-- Setup Google Analytics -->
-    <!-- You can set your favicon here -->
-    <!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
-    <!-- end custom head snippets -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@200;300;400;500;700&display=swap" rel="stylesheet" />
+    <script>
+      // Restore path encoded by 404.html redirect (SPA routing on GitHub Pages)
+      (function () {
+        var qs = window.location.search;
+        if (qs[1] === '/') {
+          var parts = qs.slice(1).split('&').map(function (s) {
+            return s.replace(/~and~/g, '&');
+          });
+          window.history.replaceState(
+            null, null,
+            parts[0] + (parts[1] ? '&' + parts[1] : '') + window.location.hash
+          );
+        }
+      })();
+    </script>
   </head>
-  <body style="background-color: #000; color: #fff;">
-    <div class="container-lg px-3 my-5 markdown-body">
-      
-    <h1>Steven Stevenson</h1>
-      <br />
-      <p align="center">
-        <img src="https://github.com/PlenipotentSS/PlenipotentSS.github.io/assets/5898517/08605d2e-156b-4c76-bf72-ba91a079f26b" title="dog_tron" />
-      </p>
-      <br />
-      <br />
-      More to come... Until then, you can reach me on <a href="https://www.linkedin.com/in/stevensonhoyt/">LinkedIn</a>
-    </div>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
